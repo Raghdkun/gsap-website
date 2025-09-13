@@ -46,7 +46,7 @@ function Hero() {
             .to('.left-leaf', { y: -200 }, 0);
 
 
-        const startValue = isMobile ? 'top 50%' : 'top top';
+        const startValue = isMobile ? 'top 40%' : 'top top';
         const endValue = isMobile ? '120% top' : 'bottom top';
 
         // Video scroll animation timeline
